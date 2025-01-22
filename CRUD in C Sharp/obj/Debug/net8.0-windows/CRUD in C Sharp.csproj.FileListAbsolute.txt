@@ -1,0 +1,17 @@
+D:\Programming\Weather App\CRUD in C Sharp\bin\Debug\net8.0-windows\CRUD in C Sharp.exe
+D:\Programming\Weather App\CRUD in C Sharp\bin\Debug\net8.0-windows\CRUD in C Sharp.deps.json
+D:\Programming\Weather App\CRUD in C Sharp\bin\Debug\net8.0-windows\CRUD in C Sharp.runtimeconfig.json
+D:\Programming\Weather App\CRUD in C Sharp\bin\Debug\net8.0-windows\CRUD in C Sharp.dll
+D:\Programming\Weather App\CRUD in C Sharp\bin\Debug\net8.0-windows\CRUD in C Sharp.pdb
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD_in_C_Sharp.Form1.resources
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD_in_C_Sharp.Properties.Resources.resources
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.csproj.GenerateResource.cache
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.AssemblyInfoInputs.cache
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.AssemblyInfo.cs
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.csproj.CoreCompileInputs.cache
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.dll
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\refint\CRUD in C Sharp.dll
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.pdb
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.genruntimeconfig.cache
+D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\ref\CRUD in C Sharp.dll
