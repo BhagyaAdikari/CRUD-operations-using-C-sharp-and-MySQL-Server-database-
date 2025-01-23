@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BGmW0dIfWtM=",
+  "dgSpecHash": "NiT9fPaKSIU=",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Weather App\\CRUD in C Sharp\\CRUD in C Sharp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Programming\\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\\CRUD in C Sharp\\CRUD in C Sharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\system.codedom\\9.0.1\\system.codedom.9.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.management\\9.0.1\\system.management.9.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
