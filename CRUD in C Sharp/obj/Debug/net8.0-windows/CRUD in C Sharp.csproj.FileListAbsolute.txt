@@ -15,3 +15,27 @@ D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\refint\CRUD 
 D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.pdb
 D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.genruntimeconfig.cache
 D:\Programming\Weather App\CRUD in C Sharp\obj\Debug\net8.0-windows\ref\CRUD in C Sharp.dll
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.csproj.AssemblyReference.cache
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD_in_C_Sharp.Form1.resources
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD_in_C_Sharp.Properties.Resources.resources
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.csproj.GenerateResource.cache
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.AssemblyInfoInputs.cache
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.AssemblyInfo.cs
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.csproj.CoreCompileInputs.cache
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.sourcelink.json
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.dll
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\refint\CRUD in C Sharp.dll
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.pdb
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\bin\Debug\net8.0-windows\CRUD in C Sharp.exe
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\bin\Debug\net8.0-windows\CRUD in C Sharp.deps.json
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\bin\Debug\net8.0-windows\CRUD in C Sharp.runtimeconfig.json
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\bin\Debug\net8.0-windows\CRUD in C Sharp.dll
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\bin\Debug\net8.0-windows\CRUD in C Sharp.pdb
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in .DCB1C76B.Up2Date
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\CRUD in C Sharp.genruntimeconfig.cache
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\obj\Debug\net8.0-windows\ref\CRUD in C Sharp.dll
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\bin\Debug\net8.0-windows\System.CodeDom.dll
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\bin\Debug\net8.0-windows\System.Management.dll
+D:\Programming\CRUD-operations-using-C-sharp-and-MySQL-Server-database-\CRUD in C Sharp\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll

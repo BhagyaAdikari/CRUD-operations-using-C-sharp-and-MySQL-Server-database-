@@ -1,4 +1,5 @@
-﻿namespace CRUD_in_C_Sharp
+﻿
+namespace CRUD_in_C_Sharp
 {
     partial class Form1
     {
@@ -28,27 +29,37 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             panel1 = new Panel();
-            textBox1 = new TextBox();
+            txt_studID = new TextBox();
             label1 = new Label();
-            comboBox1 = new ComboBox();
+            cbo_Class = new ComboBox();
             label2 = new Label();
-            textBox2 = new TextBox();
+            txt_FatherName = new TextBox();
             label3 = new Label();
-            textBox3 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
+            txt_stuName = new TextBox();
+            dtp_DOB = new DateTimePicker();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            txt_phone = new TextBox();
+            txt_address = new TextBox();
+            btn_Save = new Button();
+            btn_Update = new Button();
+            btn_Delete = new Button();
             label8 = new Label();
-            textBox6 = new TextBox();
+            txt_search = new TextBox();
             dataGridView1 = new DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column6 = new DataGridViewTextBoxColumn();
+            Class = new DataGridViewTextBoxColumn();
+            Column7 = new DataGridViewTextBoxColumn();
+            Column8 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -57,16 +68,16 @@
             panel1.BackColor = SystemColors.ActiveCaptionText;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1486, 63);
+            panel1.Size = new Size(1810, 63);
             panel1.TabIndex = 0;
             // 
-            // textBox1
+            // txt_studID
             // 
-            textBox1.Location = new Point(214, 105);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(496, 27);
-            textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
+            txt_studID.Location = new Point(214, 105);
+            txt_studID.Name = "txt_studID";
+            txt_studID.Size = new Size(496, 27);
+            txt_studID.TabIndex = 0;
+            txt_studID.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
@@ -77,14 +88,14 @@
             label1.TabIndex = 1;
             label1.Text = "Student ID";
             // 
-            // comboBox1
+            // cbo_Class
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            comboBox1.Location = new Point(214, 281);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(496, 28);
-            comboBox1.TabIndex = 0;
+            cbo_Class.FormattingEnabled = true;
+            cbo_Class.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
+            cbo_Class.Location = new Point(214, 281);
+            cbo_Class.Name = "cbo_Class";
+            cbo_Class.Size = new Size(496, 28);
+            cbo_Class.TabIndex = 0;
             // 
             // label2
             // 
@@ -96,12 +107,12 @@
             label2.Text = "Father Name";
             label2.Click += label2_Click;
             // 
-            // textBox2
+            // txt_FatherName
             // 
-            textBox2.Location = new Point(214, 220);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(496, 27);
-            textBox2.TabIndex = 2;
+            txt_FatherName.Location = new Point(214, 220);
+            txt_FatherName.Name = "txt_FatherName";
+            txt_FatherName.Size = new Size(496, 27);
+            txt_FatherName.TabIndex = 2;
             // 
             // label3
             // 
@@ -112,19 +123,20 @@
             label3.TabIndex = 5;
             label3.Text = "Student Name";
             // 
-            // textBox3
+            // txt_stuName
             // 
-            textBox3.Location = new Point(214, 159);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(496, 27);
-            textBox3.TabIndex = 4;
+            txt_stuName.Location = new Point(214, 159);
+            txt_stuName.Name = "txt_stuName";
+            txt_stuName.Size = new Size(496, 27);
+            txt_stuName.TabIndex = 4;
+            txt_stuName.TextChanged += textBox3_TextChanged;
             // 
-            // dateTimePicker1
+            // dtp_DOB
             // 
-            dateTimePicker1.Location = new Point(214, 337);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(496, 27);
-            dateTimePicker1.TabIndex = 6;
+            dtp_DOB.Location = new Point(214, 337);
+            dtp_DOB.Name = "dtp_DOB";
+            dtp_DOB.Size = new Size(496, 27);
+            dtp_DOB.TabIndex = 6;
             // 
             // label4
             // 
@@ -164,55 +176,57 @@
             label7.TabIndex = 12;
             label7.Text = "Phone No";
             // 
-            // textBox4
+            // txt_phone
             // 
-            textBox4.Location = new Point(214, 481);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(496, 27);
-            textBox4.TabIndex = 13;
+            txt_phone.Location = new Point(214, 481);
+            txt_phone.Name = "txt_phone";
+            txt_phone.Size = new Size(496, 27);
+            txt_phone.TabIndex = 13;
             // 
-            // textBox5
+            // txt_address
             // 
-            textBox5.BackColor = SystemColors.ButtonHighlight;
-            textBox5.Location = new Point(214, 381);
-            textBox5.Multiline = true;
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(496, 71);
-            textBox5.TabIndex = 14;
+            txt_address.BackColor = SystemColors.ButtonHighlight;
+            txt_address.Location = new Point(214, 381);
+            txt_address.Multiline = true;
+            txt_address.Name = "txt_address";
+            txt_address.Size = new Size(496, 71);
+            txt_address.TabIndex = 14;
             // 
-            // button1
+            // btn_Save
             // 
-            button1.BackColor = SystemColors.Highlight;
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(57, 553);
-            button1.Name = "button1";
-            button1.Size = new Size(174, 50);
-            button1.TabIndex = 15;
-            button1.Text = "Save";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btn_Save.BackColor = SystemColors.Highlight;
+            btn_Save.ForeColor = SystemColors.ControlLightLight;
+            btn_Save.Location = new Point(57, 553);
+            btn_Save.Name = "btn_Save";
+            btn_Save.Size = new Size(174, 50);
+            btn_Save.TabIndex = 15;
+            btn_Save.Text = "Save";
+            btn_Save.UseVisualStyleBackColor = false;
+            btn_Save.Click += button1_Click;
             // 
-            // button2
+            // btn_Update
             // 
-            button2.BackColor = Color.Gold;
-            button2.ForeColor = SystemColors.ControlLightLight;
-            button2.Location = new Point(286, 553);
-            button2.Name = "button2";
-            button2.Size = new Size(174, 50);
-            button2.TabIndex = 16;
-            button2.Text = "Update";
-            button2.UseVisualStyleBackColor = false;
+            btn_Update.BackColor = Color.Gold;
+            btn_Update.ForeColor = SystemColors.ControlLightLight;
+            btn_Update.Location = new Point(286, 553);
+            btn_Update.Name = "btn_Update";
+            btn_Update.Size = new Size(174, 50);
+            btn_Update.TabIndex = 16;
+            btn_Update.Text = "Update";
+            btn_Update.UseVisualStyleBackColor = false;
+            btn_Update.Click += btn_Update_Click;
             // 
-            // button3
+            // btn_Delete
             // 
-            button3.BackColor = Color.Crimson;
-            button3.ForeColor = SystemColors.ControlLightLight;
-            button3.Location = new Point(516, 553);
-            button3.Name = "button3";
-            button3.Size = new Size(174, 50);
-            button3.TabIndex = 17;
-            button3.Text = "Delete";
-            button3.UseVisualStyleBackColor = false;
+            btn_Delete.BackColor = Color.Crimson;
+            btn_Delete.ForeColor = SystemColors.ControlLightLight;
+            btn_Delete.Location = new Point(516, 553);
+            btn_Delete.Name = "btn_Delete";
+            btn_Delete.Size = new Size(174, 50);
+            btn_Delete.TabIndex = 17;
+            btn_Delete.Text = "Delete";
+            btn_Delete.UseVisualStyleBackColor = false;
+            btn_Delete.Click += btn_Delete_Click;
             // 
             // label8
             // 
@@ -223,81 +237,211 @@
             label8.TabIndex = 19;
             label8.Text = "Search";
             // 
-            // textBox6
+            // txt_search
             // 
-            textBox6.Location = new Point(864, 109);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(261, 27);
-            textBox6.TabIndex = 18;
+            txt_search.Location = new Point(864, 109);
+            txt_search.Name = "txt_search";
+            txt_search.Size = new Size(261, 27);
+            txt_search.TabIndex = 18;
             // 
             // dataGridView1
             // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.BackgroundColor = Color.White;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column6, Class, Column7, Column8 });
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.White;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(255, 255, 192);
+            dataGridViewCellStyle2.SelectionForeColor = Color.Black;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.Location = new Point(753, 162);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(733, 478);
+            dataGridView1.Size = new Size(994, 478);
             dataGridView1.TabIndex = 20;
+            dataGridView1.CellClick += dataGridView1_CellClick;
+            // 
+            // Column1
+            // 
+            Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Column1.HeaderText = "#";
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            Column1.ReadOnly = true;
+            Column1.Width = 47;
+            // 
+            // Column2
+            // 
+            Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Column2.HeaderText = "Rool No";
+            Column2.MinimumWidth = 6;
+            Column2.Name = "Column2";
+            Column2.ReadOnly = true;
+            Column2.Width = 94;
+            // 
+            // Column3
+            // 
+            Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column3.HeaderText = "Name";
+            Column3.MinimumWidth = 6;
+            Column3.Name = "Column3";
+            Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            Column4.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Column4.HeaderText = "Father Name";
+            Column4.MinimumWidth = 6;
+            Column4.Name = "Column4";
+            Column4.ReadOnly = true;
+            Column4.Width = 126;
+            // 
+            // Column6
+            // 
+            Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridViewCellStyle1.Format = "D";
+            dataGridViewCellStyle1.NullValue = null;
+            Column6.DefaultCellStyle = dataGridViewCellStyle1;
+            Column6.HeaderText = "DOB";
+            Column6.MinimumWidth = 6;
+            Column6.Name = "Column6";
+            Column6.ReadOnly = true;
+            Column6.Width = 69;
+            // 
+            // Class
+            // 
+            Class.AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCellsExceptHeader;
+            Class.HeaderText = "Column5";
+            Class.MinimumWidth = 6;
+            Class.Name = "Class";
+            Class.ReadOnly = true;
+            Class.Width = 6;
+            // 
+            // Column7
+            // 
+            Column7.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Column7.HeaderText = "Address";
+            Column7.MinimumWidth = 6;
+            Column7.Name = "Column7";
+            Column7.ReadOnly = true;
+            Column7.Width = 92;
+            // 
+            // Column8
+            // 
+            Column8.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Column8.HeaderText = "Phone Number";
+            Column8.MinimumWidth = 6;
+            Column8.Name = "Column8";
+            Column8.ReadOnly = true;
+            Column8.Width = 143;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(1639, 624);
+            ClientSize = new Size(1812, 624);
             Controls.Add(dataGridView1);
             Controls.Add(label8);
-            Controls.Add(textBox6);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
+            Controls.Add(txt_search);
+            Controls.Add(btn_Delete);
+            Controls.Add(btn_Update);
+            Controls.Add(btn_Save);
+            Controls.Add(txt_address);
+            Controls.Add(txt_phone);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(dtp_DOB);
             Controls.Add(label3);
-            Controls.Add(textBox3);
+            Controls.Add(txt_stuName);
             Controls.Add(label2);
-            Controls.Add(textBox2);
-            Controls.Add(comboBox1);
+            Controls.Add(txt_FatherName);
+            Controls.Add(cbo_Class);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(txt_studID);
             Controls.Add(panel1);
             Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Name = "Form1";
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CRUD in C#";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            label1.Text = txt_studID.Text;
+        }
+
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        
+            private void button1_Click(object sender, EventArgs e)
+        {
+            // Implement the functionality here
+            btn_save_click(sender, e);
+            MessageBox.Show("Button clicked!");
+        }
+
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        
+
         #endregion
 
         private Panel panel1;
-        private TextBox textBox1;
+        private TextBox txt_studID;
         private Label label1;
-        private ComboBox comboBox1;
+        private ComboBox cbo_Class;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox txt_FatherName;
         private Label label3;
-        private TextBox textBox3;
-        private DateTimePicker dateTimePicker1;
+        private TextBox txt_stuName;
+        private DateTimePicker dtp_DOB;
         private Label label4;
         private Label label5;
         private Label label6;
         private Label label7;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private TextBox txt_phone;
+        private TextBox txt_address;
+        private Button btn_Save;
+        private Button btn_Update;
+        private Button btn_Delete;
         private Label label8;
-        private TextBox textBox6;
+        private TextBox txt_search;
         private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column6;
+        private DataGridViewTextBoxColumn Class;
+        private DataGridViewTextBoxColumn Column7;
+        private DataGridViewTextBoxColumn Column8;
     }
 }
